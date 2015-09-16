@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>WebRadio</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="logo">
+            <h2>WebRadio <span>By GKBRK</span></h2>
+        </div>
+        <audio class="player" id="player" autoplay controls preload></audio>
+        <div class="channels">
+            <ul id="channelList">
+            </ul>
+        </div>
+        <div class="footer">
+            <hr>
+            <p>Project by Gökberk Yaltıraklı <span>Source on GitHub</span></p>
+        </div>
+        <script>
+            webradio.play_station("http://stream2137.init7.net:80/;");
+            webradio.load_channels();
+
+            webradio.player().addEventListener("volumechange", function (){
+                webradio.set_value("playervolume", webradio.player().volume);
+            }, false);
+            
+            webradio.player().volume = webradio.get_value("playervolume");
+        </script>
+    </body>
+</html>
