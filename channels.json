@@ -6,7 +6,8 @@
         {"name": "PopRadio", "url": "http://streaming208.radionomy.com:80/-PopRadio"}
     ]},
     {"name": "Electronic", "channels": [
-        {"name": "SomaFM - Groove Salad", "url": "http://uwstream1.somafm.com:80/;"}
+        {"name": "SomaFM - Groove Salad", "url": "http://uwstream1.somafm.com:80/;"},
+        {"name": "SomaFM - Space Station", "url": "http://xstream1.somafm.com:8000/;"}
     ]},
     {"name": "Classical Music", "channels": [
         {"name": "Public Domain Radio", "url": "http://stream2137.init7.net:80/;"}
