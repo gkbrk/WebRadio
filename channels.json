@@ -1,6 +1,6 @@
 [
     {"name": "Pop Music", "channels": [
-        {"name": "Top 100 Station", "url": "http://80.237.158.87:80/top100station.mp3"},
+        {"name": "Top 100 Station", "url": "http://87.230.103.58:80/top100station.mp3"},
         {"name": "Antenne Bayern", "url": "http://mp3channels.webradio.antenne.de:80/antenne"},
         {"name": "Hitradio OE3", "url": "http://194.232.200.156:8000/;?icy=http"},
         {"name": "PopRadio", "url": "http://streaming208.radionomy.com:80/-PopRadio"}
