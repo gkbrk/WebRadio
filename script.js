@@ -13,12 +13,12 @@ var webradio = {
                 for (var i=0;i<station_data.length;i++) {
                     var category = station_data[i];
                     var li = document.createElement("li");
-                    li.innerText = category.name;
+                    li.textContent = category.name;
                     li.setAttribute("class", "category");
                     document.getElementById("channelList").appendChild(li);
                     for (var i1=0;i1<category.channels.length;i1++) {
                         var li = document.createElement("li");
-                        li.innerText = category.channels[i1].name;
+                        li.textContent = category.channels[i1].name;
                         (function (url){li.addEventListener("click", function() {
                             webradio.play_station(url);
                         }, false)}(category.channels[i1].url));
