@@ -9,6 +9,7 @@
     ]},
     {"name": "Other", "channels": [
         {"name": "TheRadio.CC", "url": "http://stream.theradio.cc:8000/trcc-stream.opus"}
+        {"name": "HardStyle", "url": "http://uk5.internet-radio.com:8270/listen.pls&t=.m3u"}
     ]},
     {"name": "Electronic", "channels": [
         {"name": "SomaFM - Groove Salad", "url": "http://ice1.somafm.com/groovesalad-128-mp3"},
